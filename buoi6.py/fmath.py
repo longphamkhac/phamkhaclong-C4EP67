@@ -37,6 +37,8 @@ if random_num!=0:
     if choice=="T":
         print("Sai cmnr")
 
+print("")
+
 
 
 
