@@ -36,3 +36,11 @@
 # world="Python"
 # print(world[0:6])
 
+def add(a, b):
+    total=a+b
+    return total #frutful function
+
+# variable scope
+# c=add(2, 1)
+print(add(2, 1))
+# print(tot

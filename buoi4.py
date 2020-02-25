@@ -196,6 +196,120 @@
 # print ("Số chữ số là:", d["DIGITS"])
 
 
+# a=input("Nhap 1 cum tu ma ban muon nhap vao day: ")
+# dic={"CHU_CAI_THUONG": 0, "CHU_CAI_HOA": 0}
+# for c in a:
+#    if c.islower():
+#       dic["CHU_CAI_THUONG"]+=1
+#    if c.isupper():
+#       dic["CHU_CAI_HOA"]+=1
+# print("CHU_CAI_HOA LA", dic["CHU_CAI_HOA"])
+# print("CHU_CAI_THUONG LA", dic["CHU_CAI_THUONG"])
+
+# while True:
+#    a=int(input("Nhap 1 so tu nhien a: "))
+#    b=11*a
+#    c=111*a
+#    d=1111*a
+#    so_cantim=a+b+c+d
+#    print("So nguoi dung can tim la", so_cantim)
+
+# net_amount=0
+# while True:
+#     n=input("Nhập lịch sử giao dịch, lưu ý phải có dấu cách giữa chữ và số: ")
+#     if not n:
+#         break
+#     value=n.split(" ")
+#     operator=value[0]
+#     amounts=int(value[1])
+#     if operator=="D":
+#         net_amount+=amounts
+#     if operator=="W":
+#         net_amount-=amounts
+# print(net_amount)
+
+
+# import re
+# while True:
+#     print("Luu y khi nhap xong mat khau ban muon dang ki thi hay nhan enter de den buoc tiep theo")
+    # matkhau_ngdung=input("Nhap mat khau ban muon dang ki vao day: ")
+#     if not matkhau_ngdung:
+#         break
+#     value=[]
+    # items=[a for a in matkhau_ngdung.split(" ")]
+#     for i in items:
+#         if len(i)<6 or len(i)>12:
+#             print("Hay nhap mat khau lai tu dau")
+#             continue
+#         else:
+#             pass
+#         if not re.search("[a-z]", i):
+#             print("Hay nhap mat khau lai tu dau")
+#             continue
+#         if not re.search("[0-9]", i):
+#             print("Hay nhap mat khau lai tu dau")
+#             continue
+#         if not re.search("[A-Z]", i):
+#             print("Hay nhap mat khau lai tu dau")
+#             continue
+#         if not re.search("[$#@]",i):
+#             print("Hay nhap mat khau lai tu dau")
+#             continue
+#         else:
+#             pass
+#     break
+# value.append(i)
+# for c in value:
+#     print("Ban da dang ki thanh cong mat khau: ", c, end="")
+
+# matkhau_ngdung=input("Nhap mat khau ban muon dang ki vao day: ")
+# items=(a for a in matkhau_ngdung.split())
+# a=tuple(items)
+# print(a)
+# from operator import itemgetter, attrgetter
+# items=[]
+# while True:
+#     nhap_dulieungdung=input("Nhap du lieu vao day")
+#     if not nhap_dulieungdung:
+#         break
+#     values=(a for a in nhap_dulieungdung.split())
+#     a=tuple(values)
+#     items.append(a)
+# print(sorted(items, key=itemgetter(0,1,2)))
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
